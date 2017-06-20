@@ -1,0 +1,9 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: eureka-client
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka #http://192.168.75.128:8761/eureka/ #,http://localhost:8761/eureka #ָeureka server
